@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/48847f813a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="logo">
+                <a href="#"">Portfolio</a>
+            </div>
+            <div class="toggle"></div>
+        </nav>
+        <div class="container">
+            <p>Hello,</p>
+            <p>I'M NIKHIL DIXIT</p>
+            <p>I am Web Developer & <br> UI/UX Designer</p>
+            <button class="hire-me-btn">Hire me</button>
+            <button class="cv-btn">Download CV</button>
+        </div>
+        <img src="asserts/images/image.png" alt="image" class="image">
+    </section>
+    <section>
+        <div class="about">
+            <img src="asserts/images/image.png" alt="img">
+            <div class="about-me">
+                <p>About Me</p>
+                <p>Web Developer & UI/UX Designer</p>
+                <p>Hello! I am Nikhil Dixit from Jaipur, Rajasthan(India). I am Software Engineer and I am pursuing my graduaction from Vivekanana institute of Technology. Jaipur.</p>
+                <p>I have Good knowledge in the field of Software Engineering. I also good knowledge in the domain of UI/UX, Web Design and Development. I also do Social Media Marketing.</p>
+                <button>Hire me</button>
+                <button>Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="services">
+            <div class="services-text">
+                <p>Services</p>
+                <p>I do Web Design , UI/UX Design , Web Development <br> I also do Social Media Marketing and I provide my Best services. </p>
+            </div>
+            <div class="box-container">
+                <div class="box box-1">
+                    <span>1</span>
+                    <p class="heading">Web Design</p>
+                    <p class="details">I Design the layout as per the customer requirement with good User Interface, User Experience.</p>
+                </div>
+                <div class="box box-2">
+                    <span>2</span>
+                    <p class="heading">UI/UX Design</p>
+                    <p class="details">I fulfil the customer requirement by designing their website or mobile app. I do UI/UX design for website, android apps as well as iOS apps.</p>
+                </div>
+                <div class="box box-3">
+                    <span>3</span>
+                    <p class="heading">Web Development</p>
+                    <p class="details">I help businesses reach  their customer online by  creating their online presence as I build websites for them.</p>
+                </div>
+                <div class="box box-4">
+                    <span>4</span>
+                    <p class="heading">Social Media Marketing</p>
+                    <p class="details">I do social media marketing to get reach to the specific audience of specific age group with specific content at right time , right place. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact-form">
+            <p><span class="circle"></span>You Have Any Project In Your Mind.<span class="circle"></span></p>
+            <div class="btn">
+                <button><i class="fas fa-envelope mail" ></i>Email Me</button>
+                <button><i class="fas fa-phone-alt call"></i>Call Me</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>I make website as soon as possibe. You  really like my work and if you don't like I will change until you like . I will give you satisfactory result.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/nikhil.dixit.50951"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/NIKHILD12902761?s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/nikhil-dixit-32412a1a8"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:nikhildixit285@gmail.com"><i class="fas fa-at"></i></a>
+            </div>
+            <p>&copy; Copyright</p>
+    </footer>
+    <div class="a-social">
+        <a href="https://www.facebook.com/nikhil.dixit.50951"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/NIKHILD12902761?s=09"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/nikhil-dixit-32412a1a8"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:nikhildixit285@gmail.com"><i class="fas fa-at"></i></a>
+    </div>
+    <script src="js/JQuery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+</html>
